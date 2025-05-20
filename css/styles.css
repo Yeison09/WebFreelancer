@@ -1,0 +1,47 @@
+:root{
+    --blanco: #FFFFF;
+    --oscuro: #212121;
+    --primario: rgb(255, 193, 7);
+    --secundario: #0097A7;
+    --gris: #757575;
+
+
+--fuente-principal:3.8rem;
+
+} /* root es un pseudoselector porque no se encuentra en el html es para utilizar en css como almacenamiento.
+es para almacenar los costumpropietiers */
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-size: 16px; /* 1rem = 10px */
+}
+
+.titulo {
+    text-align: center; 
+    font-size: 3.8 rem;
+    font-family: "Krub", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+.titulo span{
+    font-size:2rem;
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*
+
+span{
+    color: green; !important es para ponerlo encima de todo cuando hay muchos selectores para uno osea rompe con la barrera de especificidad 
+}
+
+*/
